@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.input-container {
+  width: 30%;
+  height: auto;
+  border: 2px solid blue;
+  display: flex;
+  margin-top: 2rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-item .single-item {
+  padding: 2px;
+  margin: 2px 4px;
+  border: 2px solid pink;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 15%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.open {
+  display: block;
+  width: 30%;
+  transition: all 2s ease;
+}
+
+.list-items .list-item {
+  list-style-type: none;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.list-items {
+  display: flex;
+  width: 100%;
+  background-color: aqua;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.list-item:hover {
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+}
