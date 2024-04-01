@@ -111,22 +111,3 @@ const App = () => {
 };
 export default App;
 
-// <section>
-//   <div className="dropdown" ref={reference}>
-//     {/* <div className="dropdown-items">
-//
-//     </div> */}
-
-//       <span
-//         className="input-item"
-//         onClick={() => {
-//           // console.log(reference.current.classList);
-//           reference.current.classList.toggle("open");
-//         }}
-//       >
-//         <FontAwesomeIcon icon={faCaretDown} />
-//       </span>
-//     </div>
-//
-//   </div>
-// </section>
